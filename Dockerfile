@@ -1,7 +1,7 @@
 FROM node:16.20.2
 WORKDIR /app
-ENV PORT 9000
+ENV PORT 3000
 COPY . .
 RUN npm install
-EXPOSE 9000
+EXPOSE 3000
 CMD [ "npm", "run", "start"]
